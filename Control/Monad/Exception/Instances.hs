@@ -1,14 +1,14 @@
--- |
--- Module      :  Control.Monad.Exception.Instances
--- Copyright   :  (c) Harvard University 2008-2010
---             :  (c) Geoffrey Mainland 2011-2012
--- License     :  BSD-style
--- Maintainer  :  mainland@eecs.harvard.edu
-
-{-# OPTIONS_GHC -fno-warn-orphans #-}
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE TypeFamilies #-}
 {-# LANGUAGE UndecidableInstances #-}
+{-# OPTIONS_GHC -fno-warn-orphans #-}
+
+-- |
+-- Module      :  Control.Monad.Exception.Instances
+-- Copyright   :  (c) Harvard University 2008-2010
+--             :  (c) Geoffrey Mainland 2011-2014
+-- License     :  BSD-style
+-- Maintainer  :  mainland@eecs.harvard.edu
 
 module Control.Monad.Exception.Instances where
 
