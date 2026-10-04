@@ -1,0 +1,6 @@
+-- GHC 8.0 and 8.2 bindists require the legacy terminfo ABI.
+distribution: jammy
+
+-- monads-tf 0.1.0.3 requires transformers < 0.6, and later releases require a
+-- base older than GHC 9.14's, so let the solver reinstall transformers.
+installed: +all -transformers
