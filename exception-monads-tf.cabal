@@ -3,12 +3,13 @@ version:        0.4.0.2
 cabal-version:  >= 1.10
 license:        BSD3
 license-file:   LICENSE
-copyright:      (c) 2009-2010 Harvard University
-                (c) 2011-2018 Geoffrey Mainland
+copyright:      (c) 2008-2011 Harvard University
+                (c) 2011-2026 Geoffrey Mainland
 author:         Geoffrey Mainland <mainland@drexel.edu>
 maintainer:     Geoffrey Mainland <mainland@drexel.edu>
 stability:      alpha
-bug-reports:    https://github.com/mainland/exception-monad-tf/issues
+homepage:       https://github.com/mainland/exception-monads-tf
+bug-reports:    https://github.com/mainland/exception-monads-tf/issues
 category:       Control, Monad, Error Handling, Failure
 synopsis:       Exception monad transformer instances for monads-tf classes.
 description:    This package provides exception monad transformer instances for
@@ -47,4 +48,4 @@ library
 
 source-repository head
   type:     git
-  location: git://github.com/mainland/exception-monads-tf.git
+  location: https://github.com/mainland/exception-monads-tf.git

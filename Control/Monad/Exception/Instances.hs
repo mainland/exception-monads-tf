@@ -5,10 +5,10 @@
 
 -- |
 -- Module      :  Control.Monad.Exception.Instances
--- Copyright   :  (c) Harvard University 2008-2010
---             :  (c) Geoffrey Mainland 2011-2014
+-- Copyright   :  (c) Harvard University 2008-2011
+--                (c) Geoffrey Mainland 2011-2026
 -- License     :  BSD-style
--- Maintainer  :  mainland@eecs.harvard.edu
+-- Maintainer  :  mainland@drexel.edu
 
 module Control.Monad.Exception.Instances where
 
