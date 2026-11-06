@@ -9,6 +9,16 @@
 --                (c) Geoffrey Mainland 2011-2026
 -- License     :  BSD-style
 -- Maintainer  :  mainland@drexel.edu
+--
+-- Instances of the @monads-tf@ classes 'MonadCont', 'MonadReader', 'MonadRWS',
+-- 'MonadState', and 'MonadWriter' for the @ExceptionT@ monad transformer from
+-- @exception-transformers@. The module exports only these orphan instances.
+-- Import it as
+--
+-- > import Control.Monad.Exception.Instances ()
+--
+-- The @exceptions@ package supersedes @exception-transformers@, and new code
+-- should use it.
 
 module Control.Monad.Exception.Instances where
 

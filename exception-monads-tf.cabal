@@ -14,6 +14,10 @@ category:       Control, Monad, Error Handling, Failure
 synopsis:       Exception monad transformer instances for monads-tf classes.
 description:    This package provides exception monad transformer instances for
                 the classes defined by monads-tf.
+                .
+                The @exceptions@ package supersedes @exception-transformers@,
+                and new code should use it. This package remains maintained for
+                existing users.
 tested-with:    GHC==8.0.2,
                 GHC==8.2.2,
                 GHC==8.4.4,
